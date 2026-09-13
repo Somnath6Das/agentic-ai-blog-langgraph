@@ -14,7 +14,6 @@
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/icons/icon-android.png",
-        "backgroundImage": "./assets/icons/icon-android.png",
         "monochromeImage": "./assets/icons/icon-android.png"
       },
       "predictiveBackGestureEnabled": false,
@@ -33,9 +32,9 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#ffffff",
           "image": "./assets/icons/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 200
         }
       ],
       [
@@ -51,19 +50,6 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "9bf3d748-da48-4729-83ec-0e5f4c07661c"
-      }
-    },
-    "owner": "somnathdas",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/9bf3d748-da48-4729-83ec-0e5f4c07661c"
     }
   }
 }
