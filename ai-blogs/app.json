@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Ai Blogs",
+    "slug": "ai-blogs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon-ios.png",
+    "scheme": "aiblogs",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/icons/icon-ios.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/icons/icon-android.png",
+        "backgroundImage": "./assets/icons/icon-android.png",
+        "monochromeImage": "./assets/icons/icon-android.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/icons/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow access to your photos to set a profile picture.",
+          "cameraPermission": "Allow access to your camera to take a profile photo."
+        }
+      ],
+      "expo-secure-store",
+      "expo-image"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
