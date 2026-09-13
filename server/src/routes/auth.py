@@ -15,7 +15,7 @@ router =APIRouter(prefix="/auth", tags=["auth"])
 JWT_SECRET = os.getenv("JWT_SECRET")  
 ALGORITHM = "HS256"
 
-
+resend.api_key = os.getenv("RESEND_API_KEY")
 
 otp_store = {}
 
